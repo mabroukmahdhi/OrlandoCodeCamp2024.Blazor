@@ -1,0 +1,15 @@
+<div>
+    @if (Items != null)
+    {
+        <ul>
+            @foreach (var item in Items)
+            {
+                <li>@item.Title (@item.IsCompleted)</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <text>No data</text>
+    }
+</div>
