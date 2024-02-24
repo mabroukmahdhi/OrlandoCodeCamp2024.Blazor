@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos.Orlando", "Demos.Orlando\Demos.Orlando.csproj", "{D510219E-566C-4D4C-93BA-88D0E26361D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos.Orlando", "Demos.Orlando\Demos.Orlando.csproj", "{D510219E-566C-4D4C-93BA-88D0E26361D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos.Orlando.ToDo", "Demos.Orlando.ToDo\Demos.Orlando.ToDo.csproj", "{46944B12-B502-40E0-92E9-235215AFBA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos.Orlando.ToDo.Tests.Unit", "Demos.Orlando.ToDo.Tests.Unit\Demos.Orlando.ToDo.Tests.Unit.csproj", "{A3BEBF34-8FFC-4DE2-81E8-C38A52F0EA0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D510219E-566C-4D4C-93BA-88D0E26361D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D510219E-566C-4D4C-93BA-88D0E26361D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D510219E-566C-4D4C-93BA-88D0E26361D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46944B12-B502-40E0-92E9-235215AFBA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46944B12-B502-40E0-92E9-235215AFBA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46944B12-B502-40E0-92E9-235215AFBA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46944B12-B502-40E0-92E9-235215AFBA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BEBF34-8FFC-4DE2-81E8-C38A52F0EA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BEBF34-8FFC-4DE2-81E8-C38A52F0EA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BEBF34-8FFC-4DE2-81E8-C38A52F0EA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BEBF34-8FFC-4DE2-81E8-C38A52F0EA0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
