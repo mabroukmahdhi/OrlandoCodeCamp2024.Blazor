@@ -3,6 +3,7 @@
 // Presented w/ love at Orlando Code Camp 2024.
 // ---------------------------------------------------------------
 
+using Demos.Orlando.ToDo.Brokers.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -17,6 +18,8 @@ namespace Demos.Orlando.ToDo
              
             builder.Services.AddRazorPages(options=> options.RootDirectory ="/Views/Pages");
             builder.Services.AddServerSideBlazor(); 
+            builder.Services.AddDbContext<StorageBroker>();
+            builder.Services.AddScoped<IStorageBroker,StorageBroker>();
 
             var app = builder.Build();
              

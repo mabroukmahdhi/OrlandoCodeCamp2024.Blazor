@@ -1,4 +1,6 @@
+@using Demos.Orlando.ToDo.Views.Components.TodoComponents
 <div>
+    <TodoComponent Title="@Title"  OnAdded="HandleOnAdded"/>
     @if (Items != null)
     {
         <ul>
